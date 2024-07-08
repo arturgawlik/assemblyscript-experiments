@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/assembly/src/**/*"],
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "NodeNext",
+    "sourceMap": true,
+    "target": "ESNext"
+  }
+}
